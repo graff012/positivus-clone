@@ -705,6 +705,11 @@ body {
 
 /* section 10 */
 
+.section-ten {
+  position: relative;
+  margin-bottom: 208px;
+}
+
 .team-grid {
   display: grid;
   height: auto;
@@ -880,4 +885,44 @@ body {
 
 .child-six .desc-side > p {
   font-size: 18px;
+}
+
+.section-ten .team-btn {
+  background-color: #191a23;
+  padding: 20px 76px;
+  font-size: 20px;
+  color: white;
+  border-radius: 14px;
+  margin-top: 40px;
+  position: absolute;
+  right: 0px;
+  border: none;
+  cursor: pointer;
+  transition:
+    background-color 0.3 ease-in-out,
+    color 0.3 ease;
+}
+
+.team-btn:hover {
+  background-color: #30092e;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* section 11 */
+
+.section-eleven {
+  display: flex;
+  column-gap: 40px;
+}
+
+.section-eleven > h2 {
+  font-size: 40px;
+  background-color: #b9ff66;
+  border-radius: 6px;
+}
+
+.section-eleven > p {
+  font-size: 18px;
+  max-width: 473px;
 }
